@@ -16,5 +16,10 @@ public class Main {
         Woodpecker woody1 = new Woodpecker(true,2,65,"коричневый", 17);
         System.out.println(woody1.toString());
 
+        Flamingo flam1= new Flamingo(true,2,180,"розовый",4,"Flymmy");
+        System.out.println(flam1.toString());
+
+        Hippopotam hipo1 = new Hippopotam(false,4,2500,30);
+        System.out.println(hipo1.toString());
     }
 }
